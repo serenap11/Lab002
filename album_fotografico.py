@@ -68,7 +68,7 @@ def aggiungi_foto(album, codice, titolo, autore, mese, anno, file_path):
         print("File not found")
         return None
     except Exception as e:
-        print("Errore durante la scrittura del file")
+        print("Errore")
         return None
 
     if anno not in album:
